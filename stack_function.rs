@@ -1,3 +1,5 @@
+// One of my first tries at using a
+// pub function...
 pub fn is_empty(a: i32) -> bool {
     match a {
         0..=9 => false,
@@ -11,5 +13,6 @@ fn main () {
     vec.push(1);
     vec.push(2);
 
-    println!("{:?}, {}", vec, vec.is_empty());
+    println!("{:?}, {}", vec, vec.is_empty()); // [1, 2], false
+    
 }
